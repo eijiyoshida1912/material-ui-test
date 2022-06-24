@@ -15,11 +15,7 @@ export const dashboardTheme = createTheme({
       },
     },
   },
-  palette: {
-    white: {
-      main: "#fff",
-    },
-  },
+  palette: {},
   typography: {
     h1: {
       fontSize: "1.6rem",

@@ -51,14 +51,14 @@ function Header({ title }) {
     <Box sx={headerStyles.wrapper}>
       <Box sx={headerStyles.topRow}>
         <Typography sx={headerStyles.link}>Go to docs</Typography>
-        <NotificationBell iconColor="white" />
+        <NotificationBell iconColor="inherit" />
         <Avatar
           alt="Remy Sharp"
           src="https://mui.com/static/images/avatar/1.jpg"
         />
       </Box>
       <Box sx={headerStyles.middleRow}>
-        <Typography variant="h1" color="white">
+        <Typography variant="h1" color="inherit">
           {title}
         </Typography>
         <Box>
@@ -66,7 +66,7 @@ function Header({ title }) {
             Web setup
           </CommonButton>
           <Tooltip title="help">
-            <IconButton color="white" sx={headerStyles.helpIcon}>
+            <IconButton color="inherit" sx={headerStyles.helpIcon}>
               <HelpIcon />
             </IconButton>
           </Tooltip>
